@@ -11,6 +11,12 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script> 
+    $(function(){
+      $("#includeFoo").load("foo.html"); 
+    });
+    </script> 
   </head>
   <body>
     <div class="wrapper">
@@ -34,7 +40,7 @@ $ git checkout gh-pages
 </code></pre>
 
 <hr>
-<!--#include virtual="./foo.html" -->
+    <div id="includeFoo"></div>
 <hr>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
