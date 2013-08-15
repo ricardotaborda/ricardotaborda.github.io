@@ -1,4 +1,23 @@
 <!doctype html>
+
+<script type="text/javascript">                                                                     
+window.onload=function() {                                                                          
+function countdown() {                                                                              
+if ( typeof countdown.counter == 'undefined' ) {                                                    
+    countdown.counter = 5; // initial count                                                        
+    }                                                                                               
+if(countdown.counter > 0) {                                                                         
+document.getElementById('count').innerHTML = countdown.counter--;                                   
+    setTimeout(countdown, 1000);                                                                    
+    }                                                                                               
+else {                                                                                              
+    location.href = 'index.html';                                                      
+    }                                                                                               
+}                                                                                                   
+countdown();                                                                                        
+};                                                                                                  
+</script>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -13,10 +32,19 @@
     <![endif]-->
   </head>
   <body>
+    <div class="warpper">
     <div class="centered">
 
-      Hola
+      <p><a href=""><img src="images/logo-short-200x200.png" width="170"></img></a></p>
+      <h1>404</h1>
+      <h2>Ouch!</h2>
+      <p>It looks like you tried to reach a page that does not exist.<br>
+      Unless you take action now, you will be redirected to the ASEIS 
+      <a href="index.html">home page</a> in 
+      <span id="count"></span> seconds.</p>                                                      
+      <p>Good luck!</p>
 
+    </div>
     </div>
 
     <script src="javascripts/scale.fix.js"></script>
