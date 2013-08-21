@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:14px/1.5 Helvetica, Arial, sans-serif;
+  color:#444;
   font-weight:300;
 }
 
@@ -117,7 +117,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#c3c3c3;
   height:1px;
   margin:0 0 20px;
 }
@@ -163,8 +163,8 @@ header li {
   position:relative;
   width:170px;
   margin-top:4px;
-  background: #f8f8f8;
-  border:1px solid #e5e5e5;
+  background: #ececec;
+  border:1px solid #c3c3c3;
   border-radius:6px;
   vertical-align: middle;
 /*
@@ -182,7 +182,7 @@ header li {
 }
 
 header li:hover {
-  background: #f1f1f1;
+  background: #ddd;
 }
 
 header ul a {
