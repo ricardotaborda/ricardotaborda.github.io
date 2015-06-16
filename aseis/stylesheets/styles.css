@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Helvetica, Arial, sans-serif;
-  color:#444;
+  font:15px/1.5 Helvetica, Arial, sans-serif;
+  color:#555;
   font-weight:300;
 }
 
@@ -29,11 +29,11 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#444;
 }
 
 a {
-  color:#39c;
+  color:#39C;
   font-weight:400;
   text-decoration:none;
 }
@@ -130,8 +130,8 @@ footer {
 }
 
 strong {
-//  color:#222;
-  font-weight:bold;
+  color:#000;
+  font-weight:400;
 }
 
 /* --------------------------------------------- */
